@@ -1,0 +1,534 @@
+Skip to content
+
+
+
+
+
+
+
+Nursery Steps
+
+
+100%
+
+Upgrade
+
+
+
+Publish
+
+Files
+
+
+
+Commands
+
+.git
+
+hooks
+
+info
+
+logs
+
+objects
+
+refs
+
+COMMIT_EDITMSG
+
+config
+
+description
+
+HEAD
+
+index
+
+attached_assets
+
+IMG_4019_1769185329642.jpeg
+
+client
+
+public
+
+src
+
+components
+
+hooks
+
+lib
+
+pages
+
+About.tsx
+
+BirthdayParties.tsx
+
+Contact.tsx
+
+Curriculum.tsx
+
+Home.tsx
+
+not-found.tsx
+
+ProgramDetail.tsx
+
+Programs.tsx
+
+App.tsx
+
+index.css
+
+main.tsx
+
+index.html
+
+requirements.md
+
+dist
+
+public
+
+assets
+
+index-Bq_t-VhG.css
+
+index-BsqTkbPg.js
+
+logo.png
+
+favicon.png
+
+index.html
+
+index.cjs
+
+script
+
+server
+
+shared
+
+.gitignore
+
+components.json
+
+drizzle.config.ts
+
+postcss.config.js
+
+replit.md
+
+tailwind.config.ts
+
+tsconfig.json
+
+vite.config.ts
+
+Packager files
+.upm
+
+node_modules
+
+package-lock.json
+
+package.json
+
+Config files
+.replit
+
+
+
+
+
+
+
+
+
+
+Database
+
+
+Preview
+
+
+Contact.tsx
+
+
+About.tsx
+
+
+Console
+
+
+Shell
+
+
+logo.png
+
+
+
+All Databases
+
+Development Database
+Overview
+My Data
+Settings
+
+
+
+
+.replit.dev
+
+
+
+
+
+client
+
+src
+
+pages
+
+Contact.tsx
+
+...
+
+Format
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+import { Footer } from "@/components/Footer";
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
+                      <Mail className="w-5 h-5 text-accent" />
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-900">Email</h4>
+                      <p className="text-gray-600">maadi@stepsnursery.com</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
+                      <Clock className="w-5 h-5 text-accent" />
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-900">Hours</h4>
+                      <p className="text-gray-600">Mon - Fri: 7:00 AM - 6:00 PM<br/>Sat - Sun: Closed</p>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Map Placeholder */}
+            <div className="w-full h-64 bg-gray-200 rounded-2xl overflow-hidden shadow-inner flex items-center justify-center">
+               <p className="text-gray-500 font-medium flex items-center gap-2">
+                 <MapPin className="w-5 h-5" /> Map Embed Placeholder
+               </p>
+            </div>
+          </div>
+
+          {/* Inquiry Form */}
+          <div className="lg:col-span-2">
+            <div className="bg-white p-8 md:p-10 rounded-3xl shadow-xl border border-gray-100">
+              <SectionHeader title="Send an Inquiry" subtitle="Enrollment" centered={false} />
+              
+              <Form {...form}>
+                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <FormField
+                      control={form.control}
+                      name="parentName"
+                      render={({ field }) => (
+                        <FormItem>
+                          <FormLabel>Parent's Name</FormLabel>
+                          <FormControl>
+                            <Input placeholder="John Doe" className="h-12 rounded-xl bg-gray-50 border-gray-200" {...field} />
+
+
+
+
+
+
+Ln 2, Col 23
+
+
+
+Workflows
+
+Show Only Latest
+
+Clear Past Runs
+
+npm run dev
+
+Ask Agent…
+
+
+
+~/workspace
+: 
+bash
+
+
+
+Enable "Accessible Terminal" in Workspace Settings to use a screen reader with the shell.
+
+
+dist
+
+public
+
+assets
+
+logo.png
+
+Open in Editor
+
+
+Saved progress at the end of the loop
+
+
+Completed tasks
+4 / 4
+Build page for curriculum and classes
+Build page for birthday parties
+Add links to new sections
+Add new places to go
+create me a webiste for a nursery called steps main colors are dark blue red and white
+5 days ago
+
+Show less
+
+Configured Start application to run npm run dev
+
+Initiating Parallel Execution (20 seconds)
+I'll build a responsive website for Steps Nursery using your specified color palette of dark blue, red, and white.
+
+The site will include:
+
+Home Page: Welcoming hero section and key highlights.
+Programs: Information about different age groups.
+About Us: Mission, vision, and team.
+Contact: An inquiry form for parents to reach out.
+I'll start by setting up the database schema and generating the frontend with your specific design requirements.
+
+Edited shared/schema.ts
+View changes
+
+Created shared/routes.ts
+Open file
+
+Created PostgreSQL database
+View Database
+
+Created server/db.ts
+Open file
+
+Edited server/storage.ts
+View changes
+
+Edited server/routes.ts
+View changes
+
+Created client/requirements.md
+Open file
+
+Assessing Requirements & Next Steps
+
+Opened client/requirements.md
+Open file
+
+Created client/src/index.css
+Open file
+
+Defining the Execution Order (4 seconds)
+
+Created client/src/hooks/use-inquiries.ts
+Open file
+
+Installed framer-motion, react-hook-form, @hookform/resolvers, zod
+
+Created client/src/components/Navigation.tsx
+Open file
+
+Executed npm run db:push
+
+Created client/src/components/Footer.tsx
+Open file
+
+Created client/src/components/SectionHeader.tsx
+Open file
+
+Created client/src/pages/Home.tsx
+Open file
+
+Created client/src/pages/About.tsx
+Open file
+
+Created client/src/pages/Programs.tsx
+Open file
+
+Created client/src/pages/Contact.tsx
+Open file
+
+Created client/src/App.tsx
+Open file
+Waited 1 minute 14 seconds for background jobs to complete
+
+Validating Workflow Completion
+
+Restarted Start application
+
+Validating the Deployment
+The website for Steps Nursery has been created with the requested dark blue, red, and white color scheme.
+
+Key Features:
+
+Responsive Design: A clean, professional look that works on all devices.
+Navigation: Easy access to Home, About Us, Programs, and Contact pages.
+Inquiry Form: A fully functional contact form that saves submissions to the database.
+Programs Section: Showcase for Infant, Toddler, and Preschool groups.
+You can now view the site in the preview pane. Let me know if you'd like any adjustments!
+The website is now live and ready for you to review! I've set up the Steps Nursery site with the following features:
+
+Responsive Design: Looks great on mobile and desktop, using your dark blue, red, and white color scheme.
+Core Pages: Home, About Us, Programs, and Contact pages are all set up.
+Inquiry System: The contact form is fully functional and saves submissions to the database.
+Database: A PostgreSQL database is provisioned and connected.
+The app is running in the preview pane. You can deploy it whenever you're ready!
+
+Checkpoint made
+5 days ago
+
+Worked for 2 minutes
+Ready to share? Publish this App in one click.
+Autoscale Deployment
+Primary URL
+
+.replit.app
+Production database settings
+
+Configure myself
+
+Publish now
+
+
+this is the logo and teh colors, edit the website based on it
+5 days ago
+
+17 actions
+The website has been updated with the new logo and the vibrant color scheme from the Steps Play School brand. How does it look?
+
+Checkpoint made
+5 days ago
+
+Worked for 1 minute
+i want it similar to this website, difference is the only branch is maadi https://www.sesameclub.net
+58 minutes ago
+
+13 actions
+I've updated the website to match the clean and professional feel of Sesame Club, while focusing exclusively on the Maadi branch. How does the new layout and contact info look?
+
+Checkpoint made
+56 minutes ago
+
+Worked for 1 minute
+Ready to share? Publish this App in one click.
+Autoscale Deployment
+Primary URL
+
+.replit.app
+Production database settings
+
+Configure myself
+
+Publish now
+when i press prhrams or about or contact enroll now and everything, it goes back to the oage selected's top dosent stay down and with infant care program toddler program and preschool add summer camp and add for each one of the 4 programs inside them a new page explaining a bit what happens
+54 minutes ago
+
+13 actions
+I've fixed the navigation to ensure it always starts at the top, added the Summer Camp program, and created detailed pages for all four programs. How do the new descriptions look?
+
+Checkpoint made
+52 minutes ago
+
+Worked for 1 minute
+add a class division section and curriculum added in our system next to programs and with curriculum and divison section which opens up one page explaing a bit or curriculum and divison sections like classes and wyat they learn and languages and another one next to curriculum and class divisions saying birthday oarties
+45 minutes ago
+
+10 actions
+I've added the Curriculum and Class Divisions section, along with a dedicated Birthday Parties page. The navigation bar now includes both. How do these new sections look to you?
+
+Checkpoint made
+43 minutes ago
+
+Worked for 1 minute
+
+Scroll to latest
+You're out of credits. 
+Upgrade to Core
+
+Make, test, iterate…
+
+Build
+
+
+
+
+
+
